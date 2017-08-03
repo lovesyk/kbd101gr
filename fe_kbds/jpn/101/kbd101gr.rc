@@ -1,0 +1,12 @@
+#include <windows.h>
+#include <ntverp.h>
+
+#define	VER_FILETYPE	          VFT_DLL
+#define	VER_FILESUBTYPE	          VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR   "GR German Keyboard Layout for 101"
+#define VER_INTERNALNAME_STR      "kbd101gr"
+#define VER_ORIGINALFILENAME_STR  "kbd101gr.dll"
+
+#define VER_LANGNEUTRAL
+#include "common.ver"
+
